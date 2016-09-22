@@ -4,12 +4,16 @@ section
 {
 	padding-top:20px;
 	padding-bottom:20px;
-	background-color:grey;
+	background:url(images/paint4.jpg) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
 }
 canvas
 {
 	display:block;
-	border:1px solid black;
+	border:ridge lightblue;
 	margin:10px auto 0px;
 	background-color:white;
 }
@@ -20,7 +24,11 @@ button
 }
 #drawingTools
 {	
-	background-color: gray;
+	 
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
 	width:800px;
 	height:140px;
 	margin:0px auto;
@@ -36,6 +44,7 @@ button
 	height:10px;
 	margin-top:5px;
 	float:left;
+	border:2px outset lightblue;
 }
 	#colors button:hover {opacity:0.5;}
 #black {background:black;}
@@ -59,8 +68,13 @@ button
 	width:20%;
 	height:50px;
 	margin-top:5px;
-	background:#303030;
-	color:white;
+	 background:url(images/paint4.jpg) no-repeat center center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+	border:outset lightblue;
+	color:black;
 	font:25px impact;
 	cursor:pointer;
 	float:left;
