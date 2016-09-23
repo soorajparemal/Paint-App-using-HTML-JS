@@ -55,3 +55,9 @@ document.getElementById('file').addEventListener('change',function(e)
 	});
 });
 
+function download() {
+    var dt = canvas.toDataURL();
+    this.href = dt; 
+}
+document.getElementById('download').addEventListener('click', download, false);
+

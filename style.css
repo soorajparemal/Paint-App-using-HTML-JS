@@ -83,3 +83,14 @@ button
 
 #file {opacity:0;}
 
+#save a {
+	width:150px;
+        height:50px;
+        background:url(images/download.jpg) center;
+        border:outset lightblue;
+        color:black;
+        font:0px impact;
+        cursor:pointer;
+        float:right;
+}
+#save a:hover {opacity:0.5;}
